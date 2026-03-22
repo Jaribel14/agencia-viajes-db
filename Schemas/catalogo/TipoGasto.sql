@@ -3,6 +3,10 @@
 -- Descripción: Catálogo de tipos de gasto
 -- =============================================
 
+USE Agencia_de_viajes;
+GO
+
+
 CREATE TABLE catalogo.TipoGasto (
     TipoGastoId INT IDENTITY(1,1) NOT NULL,
 

@@ -2,6 +2,8 @@
 -- Tabla: core.Vendedor
 -- Descripción: Extiende Persona como vendedor
 
+USE Agencia_de_viajes;
+GO
 
 CREATE TABLE core.Vendedor (
     PersonaId INT NOT NULL,

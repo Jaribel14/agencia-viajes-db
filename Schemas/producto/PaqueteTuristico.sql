@@ -3,6 +3,10 @@
 -- Descripción: Producto comercial compuesto por servicios
 -- =============================================
 
+USE Agencia_de_viajes;
+GO
+
+
 CREATE TABLE producto.PaqueteTuristico (
     PaqueteId INT IDENTITY(1,1) NOT NULL,
 

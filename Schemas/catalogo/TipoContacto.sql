@@ -2,6 +2,9 @@
 -- Tabla: catalogo.TipoContacto
 -- Descripción: Catálogo de tipos de contacto
 -- =============================================
+USE Agencia_de_viajes;
+GO
+
 
 CREATE TABLE catalogo.TipoContacto (
     TipoContactoId INT IDENTITY(1,1) NOT NULL,

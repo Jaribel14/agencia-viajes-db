@@ -1,6 +1,8 @@
 
 -- Tabla: core.Persona
 -- Descripción: Entidad base para personas del sistema
+USE Agencia_de_viajes;
+GO
 
 
 CREATE TABLE core.Persona (

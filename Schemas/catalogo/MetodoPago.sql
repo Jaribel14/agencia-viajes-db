@@ -3,6 +3,9 @@
 -- Descripción: Catálogo de métodos de pago
 -- =============================================
 
+USE Agencia_de_viajes;
+GO
+
 CREATE TABLE catalogo.MetodoPago (
     MetodoPagoId INT IDENTITY(1,1) NOT NULL,
 

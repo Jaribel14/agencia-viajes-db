@@ -3,6 +3,10 @@
 -- Descripción: Catálogo de tipos de proveedor
 -- =============================================
 
+USE Agencia_de_viajes;
+GO
+
+
 CREATE TABLE catalogo.TipoProveedor (
     TipoProveedorId INT IDENTITY(1,1) NOT NULL,
 

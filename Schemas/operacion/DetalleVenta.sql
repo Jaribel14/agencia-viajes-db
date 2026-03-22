@@ -1,3 +1,7 @@
+USE Agencia_de_viajes;
+GO
+
+
 CREATE TABLE operacion.DetalleVenta (
     DetalleVentaId INT IDENTITY(1,1) NOT NULL,
 

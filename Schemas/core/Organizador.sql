@@ -2,6 +2,8 @@
 -- Tabla: core.Organizador
 -- Descripción: Extiende Persona como organizador
 -- =============================================
+USE Agencia_de_viajes;
+GO
 
 CREATE TABLE core.Organizador (
     PersonaId INT NOT NULL,

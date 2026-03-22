@@ -1,6 +1,10 @@
 -- Tabla: producto.Servicio
 -- Descripción: Servicios ofrecidos por proveedores
 
+USE Agencia_de_viajes;
+GO
+
+
 CREATE TABLE producto.Servicio (
     ServicioId INT IDENTITY(1,1) NOT NULL,
 

@@ -1,6 +1,10 @@
 -- Tabla: producto.PaqueteServicio
 -- Descripción: Relación entre paquetes y servicios (N:M)
 
+USE Agencia_de_viajes;
+GO
+
+
 CREATE TABLE producto.PaqueteServicio (
     PaqueteId INT NOT NULL,
     ServicioId INT NOT NULL,

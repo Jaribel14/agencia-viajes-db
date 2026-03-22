@@ -1,6 +1,10 @@
 -- Tabla: catalogo.TipoBeneficio
 -- Descripción: Catálogo de tipos de beneficio
 
+USE Agencia_de_viajes;
+GO
+
+
 CREATE TABLE catalogo.TipoBeneficio (
     TipoBeneficioId INT IDENTITY(1,1) NOT NULL,
 

@@ -1,5 +1,7 @@
 -- Tabla: core.Contacto
 -- Descripción: Información de contacto por persona
+USE Agencia_de_viajes;
+GO
 
 CREATE TABLE core.Contacto (
     ContactoId INT IDENTITY(1,1) NOT NULL,

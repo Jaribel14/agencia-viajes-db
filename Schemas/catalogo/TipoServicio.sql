@@ -2,6 +2,9 @@
 -- Tabla: catalogo.TipoServicio
 -- Descripción: Catálogo de tipos de servicio
 -- =============================================
+USE Agencia_de_viajes;
+GO
+
 
 CREATE TABLE catalogo.TipoServicio (
     TipoServicioId INT IDENTITY(1,1) NOT NULL,

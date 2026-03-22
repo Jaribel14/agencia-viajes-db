@@ -1,7 +1,8 @@
 
 -- Tabla: core.Cliente
 -- Descripción: Extiende Persona como cliente
-
+USE Agencia_de_viajes;
+GO
 
 CREATE TABLE core.Cliente (
     PersonaId INT NOT NULL,

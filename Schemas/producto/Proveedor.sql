@@ -1,6 +1,10 @@
 -- Tabla: producto.Proveedor
 -- Descripción: Entidad de proveedores de servicios
 
+USE Agencia_de_viajes;
+GO
+
+
 CREATE TABLE producto.Proveedor (
     ProveedorId INT IDENTITY(1,1) NOT NULL,
 

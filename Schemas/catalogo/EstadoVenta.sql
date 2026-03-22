@@ -2,6 +2,8 @@
 -- Tabla: catalogo.EstadoVenta
 -- Descripción: Catálogo de estados de una venta
 -- =============================================
+USE Agencia_de_viajes;
+GO
 
 CREATE TABLE catalogo.EstadoVenta (
     EstadoVentaId INT IDENTITY(1,1) NOT NULL,
